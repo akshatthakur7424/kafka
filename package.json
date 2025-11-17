@@ -1,0 +1,15 @@
+{
+  "name": "kafka-implementation",
+  "version": "1.0.0",
+  "description": "Kafka Implementation in typescript.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc -b && node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "Akshat Singh Thakur",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}

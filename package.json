@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Kafka Implementation in typescript.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "tsc -b && node ./dist/index.js"
   },
@@ -11,5 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "kafkajs": "^2.2.4"
   }
 }
